@@ -153,11 +153,11 @@ export default function About() {
                   {/* Academic Info Rows */}
                   <div className="space-y-3.5">
                     {[
-                      { icon: GraduationCap, label: 'Student ID', value: 'SA24610316', color: '#1E3A8A', bg: '#1E3A8A12' },
-                      { icon: Building2, label: 'University', value: 'SCU', color: '#1D4ED8', bg: '#1D4ED812' },
-                      { icon: Calendar, label: 'Year', value: 'Year 2', color: '#2563EB', bg: '#2563EB12' },
-                      { icon: BookOpen, label: 'Semester', value: 'Semester 2', color: '#3B82F6', bg: '#3B82F612' },
-                      { icon: Briefcase, label: 'Module', value: 'Professional Skills', color: '#60A5FA', bg: '#60A5FA12' },
+                      { icon: GraduationCap, label: 'Student ID', value: 'SA24610316', color: '#1D4ED8', bg: '#1D4ED812' },
+                      { icon: Building2, label: 'University', value: 'SCU', color: '#2563EB', bg: '#2563EB12' },
+                      { icon: Calendar, label: 'Year', value: 'Year 2', color: '#3B82F6', bg: '#3B82F612' },
+                      { icon: BookOpen, label: 'Semester', value: 'Semester 2', color: '#60A5FA', bg: '#60A5FA12' },
+                      { icon: Briefcase, label: 'Module', value: 'Professional Skills', color: '#93C5FD', bg: '#93C5FD12' },
                     ].map(({ icon: Icon, label, value, color, bg }) => (
                       <div key={label} className="flex items-center gap-3.5 p-2 rounded-xl transition-all duration-200 hover:bg-white/50">
                         <div className="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0" style={{ background: bg }}>
