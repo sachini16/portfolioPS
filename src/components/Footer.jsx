@@ -30,6 +30,7 @@ export default function Footer() {
             <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Portfolio Info</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
               <li><span className="text-slate-500">Created by:</span> <span className="text-white font-medium">A S J De Zoysa Rajapaksha</span></li>
+              <li><span className="text-slate-500">Student ID:</span> <span className="text-white font-medium">SA24610316</span></li>
               <li><span className="text-slate-500">University:</span> <span className="text-white font-medium">SCU</span></li>
               <li><span className="text-slate-500">Academic Year:</span> <span className="text-white font-medium">Year 2 – Semester 2</span></li>
               <li><span className="text-slate-500">Module:</span> <span className="text-white font-medium">Professional Skills</span></li>

@@ -153,6 +153,7 @@ export default function About() {
                   {/* Academic Info Rows */}
                   <div className="space-y-3.5">
                     {[
+                      { icon: GraduationCap, label: 'Student ID', value: 'SA24610316', color: '#1E3A8A', bg: '#1E3A8A12' },
                       { icon: Building2, label: 'University', value: 'SCU', color: '#1D4ED8', bg: '#1D4ED812' },
                       { icon: Calendar, label: 'Year', value: 'Year 2', color: '#2563EB', bg: '#2563EB12' },
                       { icon: BookOpen, label: 'Semester', value: 'Semester 2', color: '#3B82F6', bg: '#3B82F612' },
